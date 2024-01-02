@@ -1,0 +1,9 @@
+자주 일어나는 Error 정리
+
+TypeError
+    TypeError: 'builtin_function_or_method' object is not subscriptable
+        -의외로 함수에 ()를 안붙여서 오류 나는 경우가 많음
+
+
+    TypeError: '>' not supported between instances of 'int' and 'str'
+        -input으로 받은 데이터를 int로 변환하는 걸 잊은 경우.
