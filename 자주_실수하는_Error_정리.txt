@@ -7,3 +7,8 @@ TypeError
 
     TypeError: '>' not supported between instances of 'int' and 'str'
         -input으로 받은 데이터를 int로 변환하는 걸 잊은 경우.
+
+
+IndentationError
+    IndentationError: unindent does not match any outer indentation level
+        -들여쓰기 error      
