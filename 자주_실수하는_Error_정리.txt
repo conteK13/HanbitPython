@@ -7,6 +7,12 @@ TypeError
 
     TypeError: '>' not supported between instances of 'int' and 'str'
         -input으로 받은 데이터를 int로 변환하는 걸 잊은 경우.
+        
+    TypeError: slice indices must be integers or None or have an __index__ method
+        -int/int가 float형으로 나와서 생긴 에러. int//int를 하면 해결 됨.
+
+    TypeError: sequence item 4: expected str instance, int found
+        -join하기 위해서 int를 str로 바꿔야 함.
 
 
 IndentationError
