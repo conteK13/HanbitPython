@@ -1,5 +1,10 @@
 자주 일어나는 Error 정리
 
+()누락
+    .sort로 작성하면 동작x
+    .sort() 로 작성하는 거 잊지 말것!
+
+
 TypeError
     TypeError: 'builtin_function_or_method' object is not subscriptable
         -의외로 함수에 ()를 안붙여서 오류 나는 경우가 많음
